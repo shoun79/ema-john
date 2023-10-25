@@ -9,7 +9,7 @@ const Product = (props) => {
     const hendleAddCart = props.hendleAddCart;
     return (
         <div className='product'>
-            <img src={img} alt="" />
+            <img src={img ? img : 'N/A'} alt="" />
             <div className='product-info'>
                 <h5 className='product-name'>{name}</h5>
                 <p>Price:${price}</p>
