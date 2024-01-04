@@ -10,6 +10,36 @@
     margin: 50px;
 }
 
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-proceed-order {
+    width: 100%;
+    background-color: orange;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+.paginaton {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.paginaton button {
+    margin-right: 5px;
+}
+
+.paginaton .selected {
+    background-color: orange;
+}
+
 @media (max-width: 600px) {
     .shop-container {
 
